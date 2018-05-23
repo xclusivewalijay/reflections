@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Using diff allows the user to see ammended sections of the programs being contrasted. USing visual inspection
+	the user can then compare these changes to one another and try to solve the bug from visual inspection.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Having easier access to the entire history of a file allows for faster debugging since all the data needed can be 
+	contrasted with other files at once. Also it provides the user with a full example of what good and bad looks like. 
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions
+automatically saved, like Google Docs does?
+Pros: When doing manual commits, the system wont get cluttered as easily as it would with auto saves. It also allows you the 
+	flexibilty to only save what is necessary.
+Cons: If you forget to commmit then the work maybe lost. 
+
+Side notes: A css file and HTML are closely related becuase the CSS defines styles that refer to elements in the HTML file. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others,
+like Google Docs, treat each file separately?
+Becuase the likelyhood that the files are correlated in Git is alot higher than they are in Google Drive or something else like that. 
+
+How can you use the commands git log and git diff to view the history of files?
+git log allows the user to view the commits done for a particular file. Git diff shows the diiference between one commit and another which
+	is handy when trying to find out the additions/deletions of lines of code. Just compare the commit ID's of the change youre looking at
+	and the change before it.  
+
+How might using version control make you more confident to make changes that could break something?
+As long as you can make the commits accordingly, errors introduced in one version of the file be removed
+	by reverting back to an older version with the git checkout command.
+
+How Do You Want to Use Git?
+I plan to use Git on all major conding projects to eliminate the fear of breaking the programs and to foster fear-free and adventurous coding.
+
+//
